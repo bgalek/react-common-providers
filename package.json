@@ -1,0 +1,45 @@
+{
+  "name": "react-context-providers",
+  "description": "Useful react context providers",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@vitejs/plugin-react": "^1.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/react-context-providers.umd.js",
+  "module": "./dist/react-context-providers.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/react-context-providers.es.js",
+      "require": "./dist/react-context-providers.umd.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgalek/react-context-providers.git"
+  },
+  "author": "Bartosz Gałek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgalek/react-context-providers/issues"
+  },
+  "homepage": "https://github.com/bgalek/react-context-providers#readme"
+}
